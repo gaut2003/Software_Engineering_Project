@@ -1,2 +1,4 @@
-Sayan,20
-Saugata,60
+Sayan,10
+Suvajit,40
+Saugata,50
+Sayan Das,60
