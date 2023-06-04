@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Records</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table th,
+        table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ccc;
+        }
+
+        table th {
+            background-color: #f2f2f2;
+        }
+
+        .error-message {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Records</h1>
+
+        <form id="store-form">
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" required>
+            <label for="marks">Marks Obtained:</label>
+            <input type="text" id="marks" required>
+            <button type="submit">Store Marks</button>
+        </form>
+
+        <table id="records-table">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <form id="update-form">
+            <label for="update-student">Select Student:</label>
+            <select id="update-student" required></select>
+            <label for="update-marks">Update Marks:</label>
+            <input type="text" id="update-marks" required>
+            <button type="submit">Update Marks</button>
+        </form>
+
+        <form id="delete-form">
+            <label for="delete-student">Select Student:</label>
+            <select id="delete-student" required></select>
+            <button type="submit">Delete Student</button>
+        </form>
+    </div>
+
+    <script>
+        // JavaScript code to interact with the program goes here
+    </script>
+</body>
+</html>
