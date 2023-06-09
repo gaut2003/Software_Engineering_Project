@@ -44,7 +44,7 @@ public:
             return;
         }
 
-        cout << "Enter student name (or 'q' to quit): ";
+        cout << "Enter Student name (or 'q' to quit): ";
         string name;
         while (getline(cin, name)) {
             if (name == "q")
